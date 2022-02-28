@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Image Filter</title>
+
+    <script type="module" src="/build/image-filter.esm.js"></script>
+    <script nomodule src="/build/image-filter.js"></script>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #eee;
+      }
+
+      h1 {
+        border-bottom: silver 1px solid;
+        padding-bottom: 20px;
+      }
+
+      p {
+        font-size: 24px;
+        margin-bottom: -1.5px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>image-filter demo</h1>
+
+    <p>sepia</p>
+    <!--prettier-ignore-->
+    <image-filter 
+      src="beach-time.jpg" 
+      alt="Children at the beach"
+      width="500"
+      filter="sepia"
+    ></image-filter>
+
+    <xmp>
+      <image-filter src="beach-time.jpg" alt="Children at the beach" width="500" filter="sepia"></image-filter>
+    </xmp>
+
+    <hr />
+
+    <p>invert</p>
+    <!--prettier-ignore-->
+    <image-filter 
+      src="beach-time.jpg" 
+      alt="Children at the beach"
+      width="500"
+      filter="invert"
+    ></image-filter>
+
+    <xmp>
+      <image-filter src="beach-time.jpg" alt="Children at the beach" width="500" filter="invert"></image-filter>
+    </xmp>
+
+    <hr />
+
+    <p>grayscale</p>
+    <!--prettier-ignore-->
+    <image-filter 
+      src="beach-time.jpg" 
+      alt="Children at the beach"
+      width="500"
+      filter="grayscale"
+    ></image-filter>
+
+    <xmp>
+      <image-filter src="beach-time.jpg" alt="Children at the beach" width="500" filter="grayscale"></image-filter>
+    </xmp>
+
+    <hr />
+
+    <p>blur</p>
+    <!--prettier-ignore-->
+    <image-filter 
+      src="beach-time.jpg" 
+      alt="Children at the beach"
+      width="500"
+      filter="blur"
+    ></image-filter>
+
+    <xmp>
+      <image-filter src="beach-time.jpg" alt="Children at the beach" width="500" filter="blur"></image-filter>
+    </xmp>
+
+    <hr />
+
+    <p>contrast</p>
+    <!--prettier-ignore-->
+    <image-filter 
+      src="beach-time.jpg" 
+      alt="Children at the beach"
+      width="500"
+      filter="contrast"
+    ></image-filter>
+
+    <xmp>
+      <image-filter src="beach-time.jpg" alt="Children at the beach" width="500" filter="contrast"></image-filter>
+    </xmp>
+
+    <hr />
+
+    <p>saturate</p>
+    <!--prettier-ignore-->
+    <image-filter 
+      src="beach-time.jpg" 
+      alt="Children at the beach"
+      width="500"
+      filter="saturate"
+    ></image-filter>
+
+    <xmp>
+      <image-filter src="beach-time.jpg" alt="Children at the beach" width="500" filter="saturate"></image-filter>
+    </xmp>
+
+    <hr />
+
+    <p>huerotate</p>
+    <!--prettier-ignore-->
+    <image-filter 
+      src="beach-time.jpg" 
+      alt="Children at the beach"
+      width="500"
+      filter="huerotate"
+    ></image-filter>
+
+    <xmp>
+      <image-filter src="beach-time.jpg" alt="Children at the beach" width="500" filter="huerotate"></image-filter>
+    </xmp>
+
+    <hr />
+
+    <p>shadow</p>
+    <!--prettier-ignore-->
+    <image-filter 
+      src="beach-time.jpg" 
+      alt="Children at the beach"
+      width="500"
+      filter="shadow"
+    ></image-filter>
+
+    <xmp>
+      <image-filter src="beach-time.jpg" alt="Children at the beach" width="500" filter="shadow"></image-filter>
+    </xmp>
+
+    <hr />
+
+    <p>opacity</p>
+    <!--prettier-ignore-->
+    <image-filter 
+      src="beach-time.jpg" 
+      alt="Children at the beach"
+      width="500"
+      filter="opacity"
+    ></image-filter>
+
+    <xmp>
+      <image-filter src="beach-time.jpg" alt="Children at the beach" width="500" filter="opacity"></image-filter>
+    </xmp>
+  </body>
+</html>
